@@ -19,11 +19,13 @@ private:
 	// Default functions for rendering to the screen.
 	void beginDraw();
 	void endDraw();
+	std::string coordDisplay();
 
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
 
 	// Add your object here
-
+	sf::Font font;
+	sf::Text text;
 };
